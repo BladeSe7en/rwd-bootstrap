@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Header from './Header';
 
 function Checkout(props) {
     const { user } = props.location.state;
@@ -15,10 +14,10 @@ function Checkout(props) {
             <div className="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
                 <h5 className="my-0 mr-md-auto font-weight-normal">Company name</h5>
                 <nav className="my-2 my-md-0 mr-md-3">
-                    <a className="p-2 text-dark" href="#">Features</a>
-                    <a className="p-2 text-dark" href="#">Enterprise</a>
-                    <a className="p-2 text-dark" href="#">Support</a>
-                    <a className="p-2 text-dark" href="#">Pricing</a>
+                    <a className="p-2 text-dark" href="/">Features</a>
+                    <a className="p-2 text-dark" href="/">Enterprise</a>
+                    <a className="p-2 text-dark" href="/">Support</a>
+                    <a className="p-2 text-dark" href="/">Pricing</a>
                 </nav>
                 <h4 className="p-2 text-dark">{user.email}</h4>
                 <Link to="/">
@@ -89,30 +88,30 @@ function Checkout(props) {
                         <div className="col-6 col-md">
                             <h5>Features</h5>
                             <ul className="list-unstyled text-small">
-                                <li><a className="text-muted" href="#">Cool stuff</a></li>
-                                <li><a className="text-muted" href="#">Random feature</a></li>
-                                <li><a className="text-muted" href="#">Team feature</a></li>
-                                <li><a className="text-muted" href="#">Stuff for developers</a></li>
-                                <li><a className="text-muted" href="#">Another one</a></li>
-                                <li><a className="text-muted" href="#">Last time</a></li>
+                                <li><a className="text-muted" href="/">Cool stuff</a></li>
+                                <li><a className="text-muted" href="/">Random feature</a></li>
+                                <li><a className="text-muted" href="/">Team feature</a></li>
+                                <li><a className="text-muted" href="/">Stuff for developers</a></li>
+                                <li><a className="text-muted" href="/">Another one</a></li>
+                                <li><a className="text-muted" href="/">Last time</a></li>
                             </ul>
                         </div>
                         <div className="col-6 col-md">
                             <h5>Resources</h5>
                             <ul className="list-unstyled text-small">
-                                <li><a className="text-muted" href="#">Resource</a></li>
-                                <li><a className="text-muted" href="#">Resource name</a></li>
-                                <li><a className="text-muted" href="#">Another resource</a></li>
-                                <li><a className="text-muted" href="#">Final resource</a></li>
+                                <li><a className="text-muted" href="/">Resource</a></li>
+                                <li><a className="text-muted" href="/">Resource name</a></li>
+                                <li><a className="text-muted" href="/">Another resource</a></li>
+                                <li><a className="text-muted" href="/">Final resource</a></li>
                             </ul>
                         </div>
                         <div className="col-6 col-md">
                             <h5>About</h5>
                             <ul className="list-unstyled text-small">
-                                <li><a className="text-muted" href="#">Team</a></li>
-                                <li><a className="text-muted" href="#">Locations</a></li>
-                                <li><a className="text-muted" href="#">Privacy</a></li>
-                                <li><a className="text-muted" href="#">Terms</a></li>
+                                <li><a className="text-muted" href="/">Team</a></li>
+                                <li><a className="text-muted" href="/">Locations</a></li>
+                                <li><a className="text-muted" href="/">Privacy</a></li>
+                                <li><a className="text-muted" href="/">Terms</a></li>
                             </ul>
                         </div>
                     </div>

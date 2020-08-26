@@ -5,7 +5,6 @@ import {
 } from 'react-router-dom';
 import Login from './Components/Login';
 import Checkout from './Components/Checkout';
-import Header from './Components/Header';
 
 class App extends Component {
   render() {
@@ -13,7 +12,6 @@ class App extends Component {
       <Router>
         <Route exact path='/' component={Login} />
         <Route path='/Checkout' component={Checkout} />
-        <Route path='/Header' component={Header} />
       </Router>
     );
   }
